@@ -14,29 +14,31 @@ header {
 }
 .header-link {
 color: inherit;
+line-height: 1.5;
+letter-spacing: 0.02em;
 }
 .header-link:hover,
 .header-link:focus {
     color: #404BBF;
     text-decoration: underline;
 }
-.header-logo {
+.logo {
 font-family: Raleway;
-color: inherit;
+color: #4D5AE5;
 font-size: 18px;
 font-weight: 700;
-line-height: 1.16; 
+line-height: 1.17; 
 letter-spacing: 0.03em;
 text-transform: uppercase;
 text-decoration: none;
 }
-.logo-web {
-    color: #4D5AE5;
+.logo-hstud {
+    color: #2E2F42;
 }
 ul {
     list-style-type: none;
 }
-.address-link {
+.address {
     text-decoration: none;
     color: #434455;
     font-style: normal;
@@ -61,12 +63,13 @@ ul {
 .title-button {
     color: #FFF;
     text-align: center;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
     cursor: pointer;
-    border-radius: 4px;
     background-color: #4D5AE5;
-    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
 }
-.title-button:hover
+.title-button:hover 
 .title-button:focus {
     background-color: #404BBF;
 }
@@ -88,14 +91,13 @@ letter-spacing: 0.02em;
 .team-title {
 color: #2E2F42;
 text-align: center;
-font-family: Roboto;
 font-size: 36px;
 font-weight: 700;
 line-height: 1.11;
 letter-spacing: 0.02em;
 text-transform: capitalize;
 }
-.team-list {
+.team-list-item {
 background-color: #FFF;
 }
 .team-list-head {
@@ -106,7 +108,7 @@ line-height: 1.2;
 letter-spacing: 0.02em;
 }
 .team-list-text {
-line-height: 1.5px;
+line-height: 1.5;
 letter-spacing: 0.02em;
 }
 .portfolio-title {
@@ -131,15 +133,8 @@ letter-spacing: 0.02em;
 .footer {
 background-color: #2E2F42;
 }
-.footer-logo {
-color: #F4F4FD;
-font-family: Raleway;
-font-size: 18px;
-font-weight: 700;
-line-height: 1.17; /* 116.667% */
-letter-spacing: 0.03em;
-text-transform: uppercase;
-text-decoration: none;
+.logo-fstud {
+    color: #f4f4fd;
 }
 .footer-text {
     color: #F4F4FD;
