@@ -72,7 +72,7 @@ ul {
     cursor: pointer;
     background-color: #4D5AE5;
 }
-.title-button:hover 
+.title-button:hover,
 .title-button:focus {
     background-color: #404BBF;
 }
