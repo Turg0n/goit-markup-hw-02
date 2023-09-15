@@ -23,7 +23,7 @@ letter-spacing: 0.02em;
     text-decoration: underline;
 }
 .logo {
-font-family: Raleway;
+font-family: 'Raleway', sans-serif;
 color: #4D5AE5;
 font-size: 18px;
 font-weight: 700;
@@ -45,6 +45,8 @@ ul {
 }
 .address-link {
     color: inherit;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
 }
 .address-link:hover,
 .address-link:focus {
