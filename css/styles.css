@@ -43,6 +43,9 @@ ul {
     color: #434455;
     font-style: normal;
 }
+.address-link {
+    color: inherit;
+}
 .address-link:hover,
 .address-link:focus {
     color: #404BBF;
